@@ -799,4 +799,10 @@ site_configuration = {
             'remote_detect': True,
         },
     ],
+    'storage': [
+        {
+            'enable': True,
+            'target_systems': ['alvis', 'vera'],
+        }
+    ],
 }
